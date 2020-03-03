@@ -1,0 +1,48 @@
+header
+{
+    height: 50vh;
+    background: url(../images/background.jpg) no-repeat center center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+header img, #services img
+{
+    width: 100px;
+    display: block;
+}
+
+/* #testimonial-carousel .carousel-inner
+{
+    max-height: 50vh;
+} */
+
+.carousel-caption
+{
+    right: 0;
+    left: 0;
+}
+
+.navbar-brand
+{
+    padding: .5rem 1rem;
+}
+
+.dropdown-toggle
+{
+    color: #6c757d;
+    background-color: transparent;
+}
+
+.dropdown-item:active
+{
+    background-color: transparent;
+}
+
+@media only screen and (max-width: 768px)
+{
+    #navContent.show
+    {
+        height: 100vh;
+    }
+}

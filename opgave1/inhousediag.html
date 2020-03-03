@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <title>Bootstrap</title>
+</head>
+<body class="pt-5 pb-5">
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+  
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent"><span class="navbar-toggler-icon"></span></button>
+        
+        <div class="collapse navbar-collapse" id="navContent">
+          <ul class="navbar-nav w-100 justify-content-center">
+            <li class="nav-item active">
+              <a class="nav-link text-uppercase text-secondary" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-secondary" href="doctors.html">Our doctors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-secondary" href="testimonials.html">Testimonials</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-uppercase text-secondary font-weight-bold" href="#" id="TreatmentDropdown" role="button" data-toggle="dropdown">
+                Treatments
+              </a>
+              <div class="dropdown-menu" aria-labelledby="TreatmentDropdown">
+                <a class="dropdown-item text-uppercase text-secondary" href="inhousediag.html">In-House Diagnostics</a>
+                <a class="dropdown-item text-uppercase text-secondary" href="Surgery.html">Surgery and Dental Services</a>
+                <a class="dropdown-item text-uppercase text-secondary" href="Behavioural.html">Behavioral Consultation</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+<header class="mt-2">
+  <img src="images/wisdompetlogo.svg" alt="Wisdom Pet Logo">
+</header>
+
+<div class="container">
+
+    <section class="row">
+        <article class="col">
+            <h1>Treatments</h1>
+            <p class="lead mt-5 mb-5">We are proud to offer the following services as diagnostic tools to provide us with the best information to help your pets.</h3>
+        </article>
+    </section>
+
+  <section class="row">
+    <article class="col accordion">
+        <div class="card">
+            <div class="card-header" id="HeadingLab">
+                <!-- <h2> -->
+                    <button class="btn btn-link text-decoration-none text-secondary text-uppercase" type="button" data-toggle="collapse" data-target="#ContentLab">
+                        In-House Diagnostic Lab
+                    </button>
+                <!-- </h2> -->
+            </div>
+            <div id="ContentLab" class="collapse">
+                <div class="card-body">
+                    <p>Our on-site laboratory allows us to perform the following diagnostic testing:</p>
+                    <ul>
+                        <li>Complete blood counts</li>
+                        <li>Thyroid hormone assay</li>
+                        <li>Blood chemistry profiles</li>
+                        <li>Urinalysis</li>
+                        <li>Urine protein/creatinine ratio (UPC)</li>
+                        <li>Heartworm testing</li>
+                        <li>Lyme and other tick-borne disease testing</li>
+                        <li>Fungal cultures</li>
+                        <li>Intestinal parasite screening</li>
+                        <li>Blood smear and other cytology analysis</li>
+                        <li>Cushing’s/Addison’s disease testing (ACTH stimulation testing)</li>
+                        <li>Pancreatitis testing (FPL/CPL)</li>
+                        <li>Bile acid measurement</li>
+                    </ul>	
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" id="HeadingRadio">
+                <h2>
+                    <button class="btn btn-link text-decoration-none text-secondary text-uppercase" type="button" data-toggle="collapse" data-target="#ContentRadio">
+                        Digital Radiography
+                    </button>
+                </h2>
+            </div>
+            <div id="ContentRadio" class="collapse">
+                <div class="card-body">
+                    We have the ability to take radiographs (x-rays) digitally. This allows us to quickly gain x-rays to help aid in our diagnostics. In many cases, x-rays do not require sedation and are a low-stress, safe option for obtaining more medical information.
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" id="HeadingEKG">
+                <h2>
+                    <button class="btn btn-link text-decoration-none text-secondary text-uppercase" type="button" data-toggle="collapse" data-target="#ContentEKG">
+                        EKG
+                    </button>
+                </h2>
+            </div>
+            <div id="ContentEKG" class="collapse">
+                <div class="card-body">
+                    EKG/ECG is an abbreviation for electrocardiogram. This tests the electrical waves and impulses in the heart. We utilize this tool routinely during surgical procedures as well as to diagnose heart disease.
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" id="HeadingUltra">
+                <h2>
+                    <button class="btn btn-link text-decoration-none text-secondary text-uppercase" type="button" data-toggle="collapse" data-target="#ContentUltra">
+                        Ultrasound
+                    </button>
+                </h2>
+            </div>
+            <div id="ContentUltra" class="collapse">
+                <div class="card-body">
+                    Ultrasound imaging can be used to gain detailed images of the abdominal organs. Ultrasound imaging can aide in diagnosing and staging a variety of diseases, assist in routine procedures, and help monitor disease progression. In many cases, ultrasound is a non invasive and low stress method to gain vital information, and in most cases does not require sedation. 
+                </div>
+            </div>
+        </div>
+    </article>
+  </section>
+
+
+</div><!-- content container -->
+
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
