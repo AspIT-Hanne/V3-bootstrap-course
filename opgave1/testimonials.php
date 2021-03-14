@@ -11,34 +11,7 @@
 </head>
 <body class="pt-5 pb-5">
 
-  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-  
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent"><span class="navbar-toggler-icon"></span></button>
-    
-    <div class="collapse navbar-collapse" id="navContent">
-      <ul class="navbar-nav w-100 justify-content-center">
-        <li class="nav-item active">
-          <a class="nav-link text-uppercase text-secondary" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-uppercase text-secondary" href="doctors.html">Our doctors</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-uppercase text-secondary font-weight-bold" href="testimonials.html">Testimonials</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-uppercase text-secondary" href="#" id="TreatmentDropdown" role="button" data-toggle="dropdown">
-            Treatments
-          </a>
-          <div class="dropdown-menu" aria-labelledby="TreatmentDropdown">
-            <a class="dropdown-item text-uppercase text-secondary" href="inhousediag.html">In-House Diagnostics</a>
-            <a class="dropdown-item text-uppercase text-secondary" href="Surgery.html">Surgery and Dental Services</a>
-            <a class="dropdown-item text-uppercase text-secondary" href="Behavioural.html">Behavioral Consultation</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </nav>
+<?php @include "includes/menu.php"; ?>
 
   <header class="mt-2">
     <img src="images/wisdompetlogo.svg" alt="Wisdom Pet Logo">
@@ -54,11 +27,11 @@
   </section>
   
   <section class="h-50">
-    <div id="testimonial-carousel" class="carousel slide d-none d-lg-block" data-ride="carousel">
+    <div id="testimonial-carousel" class="carousel slide d-none d-lg-block" data-bs-ride="carousel">
       <ol class="carousel-indicators">
-        <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#testimonial-carousel" data-slide-to="1"></li>
-        <li data-target="#testimonial-carousel" data-slide-to="2"></li>
+        <li data-bs-target="#testimonial-carousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#testimonial-carousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#testimonial-carousel" data-bs-slide-to="2"></li>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -80,13 +53,13 @@
           </div>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
+        <span class="visually-hidden">Previous</span>
       </a>
-      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
+        <span class="visually-hidden">Next</span>
       </a>
     </div>
   </section>

@@ -11,34 +11,7 @@
 </head>
 <body class="pt-5 pb-5">
 
-<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-  
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent"><span class="navbar-toggler-icon"></span></button>
-  
-  <div class="collapse navbar-collapse" id="navContent">
-    <ul class="navbar-nav w-100 justify-content-center">
-      <li class="nav-item active">
-        <a class="nav-link text-uppercase text-secondary font-weight-bold" href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-uppercase text-secondary" href="doctors.html">Our doctors</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-uppercase text-secondary" href="testimonials.html">Testimonials</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle text-uppercase text-secondary" href="#" id="TreatmentDropdown" role="button" data-toggle="dropdown">
-          Treatments
-        </a>
-        <div class="dropdown-menu" aria-labelledby="TreatmentDropdown">
-          <a class="dropdown-item text-uppercase text-secondary" href="inhousediag.html">In-House Diagnostics</a>
-          <a class="dropdown-item text-uppercase text-secondary" href="Surgery.html">Surgery and Dental Services</a>
-          <a class="dropdown-item text-uppercase text-secondary" href="Behavioural.html">Behavioral Consultation</a>
-        </div>
-      </li>
-    </ul>
-  </div>
-</nav>
+<?php @include "includes/menu.php"; ?>
 
 <header class="mt-2">
   <img src="images/wisdompetlogo.svg" alt="Wisdom Pet Logo">
@@ -98,10 +71,16 @@
   
       <h2>Testimonials</h2>
       
-      <blockquote class="blockquote">
-        When Samantha, our Siamese cat, began sleeping all the time and urinating excessively, we brought her to see the specialists at Wisdom. Now, two years later, Samantha is still free from any complications of diabetes, and her blood sugar regularly tests normal.
-        <div class="blockquote-footer">The McPhersons</div>
-      </blockquote>
+      <figure>
+        <blockquote class="blockquote">
+          <p>When Samantha, our Siamese cat, began sleeping all the time and urinating excessively, we brought her to see the specialists at Wisdom. Now, two years later, Samantha is still free from any complications of diabetes, and her blood sugar regularly tests normal.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          The McPhersons
+        </figcaption>
+      </figure>
+        
+      
 
       <a href="testimonials.html"><button class="btn btn-primary">Read more testimonials from our customers</button></a>
     </article>
