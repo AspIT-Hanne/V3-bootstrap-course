@@ -11,12 +11,18 @@ header img, #services img
     width: 100px;
     display: block;
 }
-
-/* #testimonial-carousel .carousel-inner
+.carousel-control-next, .carousel-control-prev
 {
-    max-height: 50vh;
-} */
+    background: none;
+    border: none;
+}
 
+.carousel-indicators button
+{
+    width: 10%;
+    margin: 0 0.5rem;
+    opacity: 0.5;
+}
 .carousel-caption
 {
     right: 0;
